@@ -114,4 +114,9 @@ view: smb_v2 {
     type: sum
     sql: ${annual_payroll} ;;
   }
+
+  measure: NAICSCode2{
+    type: sum
+    sql: ${naics_us_code2017} ;;
+  }
 }
